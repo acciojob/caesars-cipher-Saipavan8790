@@ -42,8 +42,8 @@ function rot13(encodedStr) {
 				decodedArr.push(lookup[encodedStr[i]]);
 			}
 			else
-			{
-				decodedArr.push(encodedStr[i]);
+			// {
+			// 	decodedArr.push(encodedStr[i]);
 			}
 		}
 	return decodedArr.join('');
